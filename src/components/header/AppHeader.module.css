@@ -1,0 +1,27 @@
+.AppHeader {
+    background-color: var(--header);
+    height: 48px;   /* wielikrotność 2 stosujemy, czyli 2, 4, 8, 12, 16, 24 */
+    width: 80vw;    /* view width */
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.HeaderLeft {
+    vertical-align: middle;
+    margin-left: 8px;
+}
+
+.HeaderRight {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+}
+
+.HeaderRight div {
+    background-color: var(--button-color);
+    height: 50%;
+    margin: 0 4px;
+    min-width: 64px;
+
+}

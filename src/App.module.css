@@ -1,0 +1,17 @@
+:root{
+    --background: #FFE68A;
+    --button-color: #AC624F;
+    --header: #C19969;
+    --footer: #FEC760;
+    --body: #D59E58;
+    --card-color: #B47D5E;
+    --border-color: #9F2B2B;
+}
+
+html {
+  background-color: var(--background);
+}
+
+.App {
+  text-align: center;
+}

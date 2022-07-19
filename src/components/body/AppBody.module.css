@@ -1,0 +1,28 @@
+.AppBody {
+    background-color: var(--body);
+    width: calc(80vw - 8px);
+    min-height: calc(100vh - 48px - 4px - 24px - 4px - 8px);
+    margin: 4px auto auto;
+    padding: 4px;
+}
+
+.BodyContainer {
+    background-color: var(--card-color);
+}
+
+.ContainerHeader {
+    display: flex;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.ContainerBody {
+    margin: 4px;
+}
+
+.TableHeader {
+    font-weight: bold;
+}
+
+.TableHeader div {
+    border: 1px solid var(--border-color);
+}
