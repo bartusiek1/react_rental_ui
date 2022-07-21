@@ -1,0 +1,13 @@
+.NotificationContainer {
+    border: 5px solid var(--border-color);
+    border-color: blue;
+    background-color: red;
+    height: 50px;
+    width: 50vw;
+    margin: auto;
+    display: flex;
+    heigh: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
