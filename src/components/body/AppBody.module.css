@@ -1,45 +1,8 @@
 .AppBody {
     background-color: var(--body);
     width: calc(80vw - 8px);
-    min-height: calc(100vh - 48px - 4px - 24px - 4px - 8px);
-    margin: 4px auto auto;
+    max-width: 960px;
+    min-height: calc(100vh - 48px - 4px - 24px - 4px - 8px - 36px);
+    margin: 4px auto 36px;
     padding: 4px;
-}
-
-.BodyContainer {
-    background-color: var(--card-color);
-}
-
-.ContainerHeader {
-    display: flex;
-    border-bottom: 1px solid var(--border-color);
-}
-
-.ContainerBody {
-    margin: 4px;
-}
-
-.TableHeader {
-    font-weight: bold;
-}
-
-.TableHeader div {
-    border: 1px solid var(--border-color);
-}
-
-.TableRow {
-
-}
-
-.TableRow div {
-    border: 1px solid var(--border-color);
-    padding: 4px 0 4px 0;
-    display: flex;
-    heigh: 100%;
-    justify-content: center;
-    align-items: center;
-}
-
-.TableRow div button {
-    width: 90%;
 }

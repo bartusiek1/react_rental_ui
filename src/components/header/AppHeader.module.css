@@ -2,6 +2,7 @@
     background-color: var(--header);
     height: 48px;   /* wielikrotność 2 stosujemy, czyli 2, 4, 8, 12, 16, 24 */
     width: 80vw;    /* view width */
+    max-width: 968px;
     margin: auto;
     display: flex;
     align-items: center;
@@ -18,9 +19,28 @@
     align-items: center;
 }
 
+.HeaderRight a {
+    text-decoration: none;
+}
+
+.HeaderRight a div {
+    border: 2px solid var(--button-color);
+    background-color: var(--button-color);
+    height: 40%;
+    margin: 0 4px;
+    min-width: 64px;
+    padding: 4px 8px;
+    color: white;
+    transition: 1s border;
+}
+
+.HeaderRight a div:hover {
+    border: 2px solid #03045E;
+}
+
 .HeaderRight div {
     background-color: var(--button-color);
-    height: 50%;
+    height: 40%;
     margin: 0 4px;
     min-width: 64px;
 

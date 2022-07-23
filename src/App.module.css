@@ -6,6 +6,9 @@
     --body: #D59E58;
     --card-color: #B47D5E;
     --border-color: #9F2B2B;
+    --form-fields-color: white;
+    --button-clear-color: #ff9800;
+    --button-submit-color: #1976d2;
 }
 
 html {
